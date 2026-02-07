@@ -3,46 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <title>Marqués de Ica</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header class="hero">
-    <h1>Marqués de Ica</h1>
-    <p>Pisco, vinos y licores de tradición</p>
-    <button>Ver colección</button>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">Marqués de Ica</div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#historia">Historia</a>
+      <a href="#productos">Productos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
   </header>
 
-  <section class="about">
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <h1>Pisco, vinos y licores de tradición</h1>
+    <button>Ver colección</button>
+  </section>
+
+  <!-- HISTORIA -->
+  <section id="historia" class="historia">
     <h2>Nuestra historia</h2>
     <p>
       Desde el corazón de Ica, Marqués de Ica representa la pasión,
       tradición y calidad en cada botella.
     </p>
   </section>
-  <section class="products">
-  <h2>Nuestros productos</h2>
 
-  <div class="product-list">
-    <div class="product-card">
-      <h3>Pisco Quebranta</h3>
-      <p>Tradición y pureza en cada gota.</p>
-    </div>
+  <!-- PRODUCTOS -->
+  <section id="productos" class="productos">
+    <h2>Nuestros productos</h2>
 
-    <div class="product-card">
-      <h3>Vino Tinto</h3>
-      <p>Sabor intenso con carácter peruano.</p>
-    </div>
-
-    <div class="product-card">
-      <h3>Licor Especial</h3>
-      <p>Una experiencia única para ocasiones especiales.</p>
-    </div>
-  </div>
-</section>
-
-
-  <script src="js/script.js"></script>
-</body>
-</html>
+    <div class="cards">
+      <div class="card">
+        <h3>Pisco Quebranta</h3>
+        <p>Tradición y pureza
