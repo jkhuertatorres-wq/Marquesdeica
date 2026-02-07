@@ -55,4 +55,8 @@ footer {
   padding: 30px;
   background: #111;
 }
+.header.scrolled {
+  background: black;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.7);
+}
 
