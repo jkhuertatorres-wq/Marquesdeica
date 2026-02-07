@@ -33,3 +33,39 @@ body {
   cursor: pointer;
   font-size: 1rem;
 }
+/* PRODUCTS */
+.products {
+  padding: 60px 20px;
+  text-align: center;
+  background: #111;
+}
+
+.products h2 {
+  color: #d4af37;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.product-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: #000;
+  border: 1px solid #d4af37;
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+
+.product-card h3 {
+  color: #d4af37;
+  margin-bottom: 10px;
+}
